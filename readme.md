@@ -77,10 +77,10 @@ SENTIMENT_THRESHOLD = 40  # 情感阈值
 ![优化关系网络图](results/优化关系网络图.png)
 
 优化热力图
-results/优化热力图.png
+![优化热力图](results/优化热力图.png)
 
 优化GNN关系强度分布
-results/优化GNN关系强度分布.png
+![优化GNN关系强度分布](results/优化GNN关系强度分布.png)
 
 **🧩 模块说明**
 
