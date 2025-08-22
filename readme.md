@@ -74,7 +74,7 @@ SENTIMENT_THRESHOLD = 40  # 情感阈值
 **📈 示例报告**
 
 关系网络图
-results/优化关系网络图.png
+![优化关系网络图](results/优化关系网络图.png)
 
 优化热力图
 results/优化热力图.png
