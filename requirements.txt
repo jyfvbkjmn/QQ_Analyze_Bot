@@ -1,0 +1,34 @@
+# 核心数据处理
+pandas==2.1.4
+numpy==1.26.4
+scipy==1.12.0
+python-dateutil==2.8.2
+
+# 机器学习与深度学习
+scikit-learn==1.4.2
+numba==0.59.0
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+torch-geometric==2.4.0
+
+# NLP与文本处理
+jieba==0.42.1
+snownlp==0.12.3
+transformers==4.40.0
+sentencepiece==0.2.0
+
+# 可视化
+matplotlib==3.8.2
+seaborn==0.13.2
+plotly==5.21.0
+pygraphviz==1.11
+
+# 工具库
+networkx==3.2.1
+lxml==5.1.0
+html5lib==1.1
+tqdm==4.66.2
+
+# 修复：合并索引URL到依赖块
+--extra-index-url https://download.pytorch.org/whl/cu121

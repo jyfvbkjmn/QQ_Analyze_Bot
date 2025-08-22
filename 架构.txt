@@ -1,0 +1,19 @@
+QQ_Analyze_Bot/
+├── Dockerfile                  # 容器构建文件
+├── docker-compose.yml          # 服务编排配置
+├── .dockerignore               # Docker忽略文件
+├── requirements.txt            # Python依赖
+├── main.py                     # 主程序入口
+├── config.py                   # 配置文件
+├── data/                       # 数据目录（存放消息记录.csv）
+├── results/                    # 分析结果输出目录（容器内）
+└── modules/                    # 功能模块
+    ├── __init__.py
+    ├── data_loader.py          # 数据加载
+    ├── sentiment_analyzer.py   # 情感分析
+    ├── core_metrics.py         # 核心指标计算
+    ├── affection_metrics.py    # 暗恋参数构建
+    ├── visualization.py        # 可视化模块
+    ├── gnn_model.py            # GNN模型模块（新增）
+    ├── entrypoint.sh            # 有点忘了是干嘛的了，应该是和保持docker desktop内容器运行完分析过程后不关闭有关
+    └── utils.py                # 通用工具

@@ -1,0 +1,12 @@
+# 排除非必要文件
+.git/
+__pycache__/
+*.pyc
+*.log
+.env
+data/*            # 构建时不复制数据
+results/*         # 构建时不复制历史结果
+
+# 保留必要文件
+!docker_cache/**  # 确保依赖目录被复制
+!.dockerignore    # 允许自身被复制
